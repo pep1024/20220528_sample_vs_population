@@ -1,0 +1,33 @@
+---
+title: "Testing in finite size population"
+author: "Pep Porrà"
+date: "28/5/2022"
+output: html_document
+---
+
+## Goal
+
+Explain how to analyze A/B test in a finite size population.
+
+## Context
+
+Most analysis in Statistics assume we reach conclusions from samples
+obtained from an infinite size population or, at least, that the size of the 
+population is much greater than the size of the sample/s. A/B test paradigm 
+consists in taking two samples from an infinite (at least theoretically) 
+population, give to one of them a different treatment and analyse if there is
+a significant difference in the metric the treatment impacts. Usually,
+the population behind the samples is not explicitly mentioned. This is precisely
+the focus of this note: Identify in each experiment the population we are
+trying to reach conclusions about and show how hypothesis testing methodologies
+may depend on the population we choose. 
+
+## A toy example
+
+Assume a callege with two groups of 30 students registered for the 
+Statistics 101 course. The first day of the course we ask each student the
+overall SAT grade
+
+
+
+Take a college class of 30 students registered for the Stats 101 course. 
